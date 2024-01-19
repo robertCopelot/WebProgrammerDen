@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <title>My website</title>
+    <style>
+      .css_imgIcons {
+        width: 50%;
+        border-radius: 20%;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 2);
+        padding: 0.2em;
+        margin-bottom: 15em;
+      }
+
+      .fade-in {
+        opacity: 0;
+        animation: fadeIn ease-in 1;
+        animation-fill-mode: forwards;
+        animation-duration: 2s;
+      }
+
+      @keyframes fadeIn {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand p-0" href="/">
+          <img src="H.png" alt="logo" width="40" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="language.html">My favorite language</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="CSS-docs.html">CSS docs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="HTML-docs.html">HTML docs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="js-docs.html">JS docs</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container text-center my-5">
+      <div class="row mx-auto my-auto">
+        <div class="col-lg-6 col-md-8 mx-auto fade-in">
+          <h1>html</h1>
+          <p class="text-muted card-text">
+            HTML (HyperText Markup Language) - это основной язык разметки
+            веб-страниц, который используется для создания структуры и
+            содержимого веб-сайтов. Вот краткое описание по каждому пункту:
+          </p>
+          <p>
+            1. Создание первого проекта с HTML: - Для создания первого проекта с
+            HTML, вам понадобится текстовый редактор, такой как Visual Studio
+            Code, Sublime Text или Atom. - Создайте новый файл с расширением
+            .html (например, index.html). В нутри файла начните с базовой
+            разметки HTML, которая включает в себя теги html>, head> и body>.
+          </p>
+          <p>
+            2. Библиотека Live Server: - Live Server - это расширение для Visual
+            Studio Code, которое позволяет запускать локальный сервер для ваших
+            проектов на HTML, CSS и JavaScript. - После установки расширения, вы
+            можете открыть ваш HTML файл и запустить Live Server, что позволит
+            вам мгновенно видеть изменения в браузере без необходимости вручную
+            перезагружать страницу.
+          </p>
+          <p>
+            3. Основные теги HTML: - html>: Определяет начало и конец HTML
+            документа. - head>: Содержит метаданные HTML документа, такие как
+            заголовок страницы, ссылки на внешние таблицы стилей и скрипты. -
+            body>: Содержит основное содержимое веб-страницы, такое как текст,
+            изображения, ссылки и другие элементы.
+          </p>
+          <p>
+            4. Синтаксис языка HTML: - HTML состоит из тегов, которые обрамляют
+            содержимое и указывают браузеру, как его интерпретировать. - Теги
+            обычно имеют открывающий и закрывающий элемент, например
+            tag>содержимое/tag>. - Атрибуты могут добавляться к тегам для
+            предоставления дополнительной информации, например tag
+            атрибут="значение">содержимое/tag>.
+          </p>
+          <p>
+            5. Внешняя библиотека Bootstrap: - Bootstrap это популярная
+            библиотека CSS и JavaScript, которая предоставляет готовые
+            компоненты и стили для быстрой и адаптивной верстки веб-страниц. -
+            Для использования Bootstrap в проекте, вы можете подключить ссылки
+            на соответствующие стили и скрипты в вашем HTML документе, а затем
+            использовать классы Bootstrap для создания различных компонентов,
+            таких как кнопки, навигационные панели, формы и другие элементы.
+            Надеюсь, эта информация будет полезной для вас. Если у вас есть
+            дополнительные вопросы или вам нужна дополнительная информация о
+            HTML, обязательно спрашивайте!
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
